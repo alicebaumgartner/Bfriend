@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bFriend:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bFriend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bFriend-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bFriend:war exploded" />
+    </root>
+  </artifact>
+</component>
